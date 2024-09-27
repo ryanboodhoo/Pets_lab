@@ -1,6 +1,5 @@
 public class Bird extends Animals{
-
-        @Override
+    @Override
         public void makeNoise(){
             System.out.println(getName() + " " + "Tweet-Tweet");
         }
