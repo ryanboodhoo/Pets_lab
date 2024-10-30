@@ -1,7 +1,12 @@
 public class Dog extends Animals {
-    @Override
-    public void makeNoise() {
-        System.out.println(getName() + " " + "Woof - Woof");
+
+    public Dog() {
+        super("dog");
     }
-}
+
+    public void makeNoise() {
+            System.out.println(getName() + " " + "Woof - Woof");
+        }
+    }
+
 
